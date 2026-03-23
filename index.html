@@ -361,7 +361,7 @@
         function openLoginModal() { if (!isLoggedIn) document.getElementById('login-modal').style.display = 'flex'; else navigate('backend'); }
         function closeLoginModal() { document.getElementById('login-modal').style.display = 'none'; }
         function checkLogin() {
-            if (document.getElementById('username').value === 'admin' && document.getElementById('password').value === '90615han') {
+            if (document.getElementById('username').value === 'admin' && document.getElementById('password').value === 'admin1234') {
                 isLoggedIn = true; sessionStorage.setItem('energy_admin_v11', 'true');
                 closeLoginModal(); updateNavButtons(); navigate('backend');
             } else { alert("帳號或密碼錯誤。"); }
