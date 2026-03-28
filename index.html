@@ -216,7 +216,7 @@
     <div id="view-about" class="page-view">
         <div class="page-header"><h1>關於我們</h1></div>
         <div class="container">
-            <div class="content-box"><h2>集團簡介</h2><p id="display-about-text"></p></div>
+            <div class="content-box"><h2>公司簡介</h2><p id="display-about-text"></p></div>
         </div>
     </div>
 
@@ -324,7 +324,7 @@
             primaryColor: '#db0011', heroTitle: '驅動未來的極致動能', heroDesc: '我們致力於為您的引擎提供卓越保護。', aboutText: '瀚輿貿易 致力於提供最高品質的產品，接軌國際標準。'
         };
         const defaultFooter = [
-            { id: 1, title: '關於集團', links: [{text: '聯絡我們', url: 'about'}, {text: '企業服務', url: 'business'}] },
+            { id: 1, title: '關於我', links: [{text: '聯絡我們', url: 'about'}, {text: '企業服務', url: 'business'}] },
             { id: 2, title: '我們的產品', links: [{text: '所有產品目錄', url: 'products'}] }
         ];
 
@@ -520,7 +520,7 @@
                             <input type="text" id="new-link-text-${col.id}" placeholder="連結文字" style="padding:6px; flex:1; border:1px solid #ccc; border-radius:3px;">
                             <select id="new-link-url-${col.id}" style="padding:6px; border:1px solid #ccc; border-radius:3px;">
                                 <option value="home">首頁</option><option value="products">產品目錄</option>
-                                <option value="business">企業服務</option><option value="about">關於集團</option>
+                                <option value="business">企業服務</option><option value="about">關於我</option>
                             </select>
                             <button class="mini-btn edit" onclick="addFooterLink(${col.id})">加入</button>
                         </div>
